@@ -133,7 +133,7 @@ displayBackgroundImage('movie', movie.backdrop_path);
             <ul class="list-group">
               ${movie.genres.map((genre) => `<li>${genre.name}</li>`).join('')}
             </ul>
-            <a href="${movie.homepage}" target="_blank" class="btn">Visit Movie Homepage</a>
+            <a href="${movie.homepage}" target="_blank" class="btn">Play</a>
           </div>
         </div>
         <div class="details-bottom">
@@ -192,7 +192,7 @@ displayBackgroundImage('tv', show.backdrop_path);
             <ul class="list-group">
               ${show.genres.map((genre) => `<li>${genre.name}</li>`).join('')}
             </ul>
-            <a href="${show.homepage}" target="_blank" class="btn">Visit Show Homepage</a>
+            <a href="${show.homepage}" target="_blank" class="btn">Play</a>
           </div>
         </div>
         <div class="details-bottom">
